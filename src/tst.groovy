@@ -2,7 +2,7 @@ def getUser() {
     [login: 'use2',password:'pass3']
 }
 
-User user = getUser()
+//User user = getUser()
 
 User us1 = new User(password: 'pass1',login:'user1')
 User us2 = new User(password: 'pass2',login:'user2')

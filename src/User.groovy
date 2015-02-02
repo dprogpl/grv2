@@ -3,8 +3,8 @@ class User {
     private String password;
 
     @Override
-    boolean equals(Object obj) {
-        return login == obj.login
+    boolean equals(Object obj5) {
+        return login == obj5.login
     }
 
     User plus(User user2) {
